@@ -1,7 +1,7 @@
 {
-  "name": "typeorm-example",
+  "name": "docker_typescript_nodejs",
   "version": "1.0.0",
-  "description": "Language: Typescript, NodeJS",
+  "description": "Language: Docker, Typescript, NodeJS",
   "main": "server.js",
   "scripts": {
     "build": "tsc",
