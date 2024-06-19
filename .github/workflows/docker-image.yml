@@ -2,9 +2,9 @@ name: NodeJS Docker Demo
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   IMAGE_NAME: sajigeorgejoe/my_node_app
