@@ -1,6 +1,6 @@
 variables:
   IMAGE_NAME: sajigeorgejoe/my_node_app
-  IMAGE_TAG: v1
+  IMAGE_TAG: gitlab
 
 build_image:
   image: docker:27.0.0-rc.2-cli
