@@ -24,7 +24,7 @@ Port mapping:
 <HOST_PORT>:<CONTAINER_PORT>  
 3025:3025  
 
-## CICD
+## CI
 
 ### GitHub Actions
 
