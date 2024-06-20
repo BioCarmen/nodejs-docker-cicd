@@ -32,7 +32,8 @@ Fork the repository. You can find the actions script in the following location.
 ```sh
 .github/workflows/docker-image.yml
 ```
-Go to Settings -> CICD -> Variables to add the DockerHub credentials as secrets. Add REGISTRY_USER and REGISTRY_PASSWORD.  
+Go to Settings -> Secrets and Variables -> Actions -> Repository Secrets to add the DockerHub credentials as secrets. Add DOCKER_USERNAME and DOCKER_PASSWORD.  
+
 Then go to actions to see the action.  
 
 ![image](https://github.com/joesajigeorge/Docker-NodeJS-Demo-CICD/assets/32813415/e126527a-1a0d-49ca-b6e7-deed5f287031)
@@ -41,7 +42,7 @@ Then go to actions to see the action.
 
 Clone the repository and push to GitLab or migrate the repository. You can find the pipeline script in the file .gitlab-ci.yml.  
   
-Go to Settings -> Secrets and Variables -> Actions -> Repository Secrets to add the DockerHub credentials as secrets. Add DOCKER_USERNAME and DOCKER_PASSWORD.  
+Go to Settings -> CICD -> Variables to add the DockerHub credentials as secrets. Add REGISTRY_USER and REGISTRY_PASSWORD.   
   
 You can find the pipeline in Build -> Pipelines.  
 
